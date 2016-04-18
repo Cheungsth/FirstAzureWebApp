@@ -262,7 +262,9 @@
   <ItemGroup>
     <Content Include="Service References\Application Insights\ConnectedService.json" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\SimonCheungWebApp1 - Web Deploy.pubxml" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="images\404.xcf" />
   </ItemGroup>
