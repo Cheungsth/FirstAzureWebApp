@@ -27,6 +27,14 @@ namespace AzureWebApplication2.Controllers
             return View();
         }
 
+
+        public ActionResult Calendar()
+        {
+            ViewBag.Message = "Your Calendar page.";
+
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
